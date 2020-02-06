@@ -1,0 +1,33 @@
+/*
+Ajustes de menu superior
+*/
+ul#menu-menu-superior {
+    display: flex;
+}
+#menu-menu-superior li:not(:first-of-type)  {
+    margin-left: 30px;
+}
+li.text-left.profundidad1 {
+    display: inline-block !important;
+    vertical-align:top;
+}
+li.text-left.profundidad1 > a {
+    font-weight: bold;
+}
+.primerNivel > span {
+    cursor: pointer;
+    font-size: 16px;
+    color: #50535a;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+li[class*="primerNivel"] > span:hover + div {
+    visibility: visible;
+}
+li[class*="primerNivel"] > span + div:hover {
+	visibility: visible;
+}
+.profundidad1 > span {
+    font-weight: bold;
+}

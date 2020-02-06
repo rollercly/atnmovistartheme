@@ -1,0 +1,51 @@
+/*
+ Theme Name:  Movistar ATN
+ Theme URI:    http://example.com/wp-bootstrap-starter-child01/
+ Description:  Movistar ATN basado en WP Bootstrap Starter
+ Author:       Jose Lorenzo
+ Author URI:   https://www.soprasteria.es/sobre-nosotros/oficinas/implantation-detail/bilbao
+ Template:     wp-bootstrap-starter
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  wp-bootstrap-starter-child01
+*/
+/* =Aquí empieza la personalización de tu tema
+-------------------------------------------------------------- */
+header {
+    /* margin-bottom: 0; */
+    background-color: #FFF; 
+    /* box-shadow: 0 0.5rem 1rem rgba(0,0,0,.05), inset 0 -1px 0 rgba(0,0,0,.1); */
+    /* padding: .74rem 1rem; */
+}
+ul#menu-menu-principal {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+div[class*="subpaginas"] {
+    position: fixed;
+ 
+}
+/*
+Reajustes menu superior para que no afecten al base.css que me pasa Eritz
+*/
+div[class*="subpaginas"] {
+    position: fixed;
+    top: 122px;
+}
+div[class*="subpaginasadmin"] {
+    top: 155px;
+}
+/*
+Para rellenar las imagenes del elementor al ancho del contenido
+*/
+/* .elementor img {
+    width: 100%;
+} */
+.mispruebas .item{
+	width:200px;
+	background-color:red;
+	margin:10px;
+}
