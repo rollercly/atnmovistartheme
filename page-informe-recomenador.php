@@ -24,6 +24,7 @@ get_header(); ?>
 	<?php 
 	echo "<P>NOMBRE:".$_GET["nombre"]."</P>";
 	echo "<P>email:".$_GET["email"]."</P>";
+	echo "kk";
 
 	?>
 	
